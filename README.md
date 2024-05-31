@@ -5,17 +5,18 @@ Welcome to the AirBnB Clone Console! This is the first step towards building the
 AirBnB is a complete web application, integrating database storage(not yet implemented), a back-end API((not yet implemented), and front-end((not yet implemented) interfacing in a clone of AirBnB.
 The project currently only implements the back-end console.
 
-## Contents:
+## Contents
 
-* [1 Introduction](#1-Introduction)
-* [2 Tools](#2-Tools)
-* [3 Installation](#3-Installation)
+* [1 Introduction](#1-introduction)
+* [2 Tools](#2-tools)
+* [3 Installation](#3-installation)
 * [4 Testing](#4-Testing)
 * [5 Usage](#5-Usage)
-* [6 Authors](#6-Authors)
+* [6 Authors](#6-authors)
 * [7 License](#7-license)
 
 # ``1-Introduction``
+
 Team project to build a clone of [AirBnB](https://www.airbnb.com/).
 
 ## Overview
@@ -29,30 +30,28 @@ The console will perform the following tasks:
 * do operations on objects
 * destroy an object
 
-
-
 ## ``2-Tools``
 <!-- ubuntu -->
 <a href="https://ubuntu.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Ubuntu&color=E95420&logo=Ubuntu&logoColor=E95420&labelColor=2F333A" alt="Suite CRM"></a> <!-- bash --> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GNU%20Bash&color=4EAA25&logo=GNU%20Bash&logoColor=4EAA25&labelColor=2F333A" alt="terminal"></a> <!-- python--> <a href="https://www.python.org" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Python&color=FFD43B&logo=python&logoColor=3776AB&labelColor=2F333A" alt="python"></a> </a><!-- vs code --> <a href="https://code.visualstudio.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Visual%20Studio%20Code&color=5C2D91&logo=Visual%20Studio%20Code&logoColor=5C2D91&labelColor=2F333A" alt="Suite CRM"></a> </a><!-- git --> <a href="https://git-scm.com/" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=Git&color=F05032&logo=Git&logoColor=F05032&labelColor=2F333A" alt="git distributed version control system"></a> <!-- github --> <a href="https://github.com" target="_blank"> <img height="" src="https://img.shields.io/static/v1?label=&message=GitHub&color=181717&logo=GitHub&logoColor=f2f2f2&labelColor=2F333A" alt="Github"></a>
  <!-- Style guidelines -->
 * Style :
-    * [PEP8](https://pep8.org/)
-
+  * [PEP8](https://pep8.org/)
 
 ## ``3-Installation``
-1.  Clone this GitHub repository to your local machine.
+
+1. Clone this GitHub repository to your local machine.
 
 `git clone https://github.com/nuuxcode/AirBnB-Clone.git`
 
-2.  Navigate to the project directory.
+2. Navigate to the project directory.
 
-`cd AirBnB-Clone` 
+`cd AirBnB-Clone`
 
-3.  Execute the console.
+3. Execute the console.
 
 `./console.py`
 
-### Execution 
+### Execution
 
 Interactive mode
 
@@ -69,7 +68,9 @@ EOF  help  quit
 (hbnb) quit
 $
 ```
+
 Non Interactive mode
+
 ```
 $ echo "help" | ./console.py
 (hbnb)
@@ -130,7 +131,7 @@ $
 $
 ```
 
-* show 
+* show
 
 > *Deletes an instance of a given class with a given ID.*
 > *Update the file.json*
@@ -153,6 +154,7 @@ $
 (hbnb) all BaseModel
 [BaseModel] (57262839-51d7-4a9a-93e2-35ed8e91d823) {'id': '57262839-51d7-4a9a-93e2-35ed8e91d823', 'created_at': datetime.datetime(2023, 8, 13, 14, 19, 19, 412265), 'updated_at': datetime.datetime(2023, 8, 13, 14, 19, 19, 412357)}
 ```
+
 * destroy
 
 >*Deletes an instance of a given class with a given ID.*
@@ -168,7 +170,7 @@ $
 []
 ```
 
-* count 
+* count
 
 > *Prints the number of instances of a given class.*
 
@@ -208,8 +210,7 @@ python3 -m unittest discover tests
 
 ## ``6-Authors``
 
--   [Soumia Ouzat](https://github.com/SouaOui)
--   [Mounssif Bouhlaoui](https://github.com/nuuxcode)
+* [Salima Hammoudi](https://github.com/salimahmudi)
 
 ## ``7- License``
 
